@@ -18,11 +18,7 @@ body {
   min-height: 75px;
 }
 
-.header {
-   padding-top: 20px;
-    padding-right: 0px;
-    padding-bottom: 20px;
-    padding-left: 40px;
+.header bg-light {
     font-weight: bold;
 }
 
@@ -46,6 +42,12 @@ body {
   border-color: #888888;
 }
 
+.like {
+  background-image: url(greyheart.png);
+  height: 30px;
+  width: 30px;
+}
+
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
   background-color: #c00 !important;
 }
@@ -62,5 +64,3 @@ body {
 .container-narrow > hr {
   margin: 2rem 0;
 } */
-
-
