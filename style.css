@@ -5,7 +5,9 @@
 html {
   position: relative;
   min-height: 100%;
+  font-family: 'Targetica','Helvetica Neue','Helvetica','Arial',sans-serif;
 }
+
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
@@ -31,8 +33,9 @@ body {
 }
 
 .btn {
-  background-color: #c00;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
+  border-color: #888888;
 }
 
 .nav-link {
