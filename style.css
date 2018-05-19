@@ -46,6 +46,12 @@ body {
   border-color: #888888;
 }
 
+.like {
+  background-image: url(greyheart.png);
+  height: 30px;
+  width: 30px;
+}
+
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
   background-color: #c00 !important;
 }
@@ -62,5 +68,3 @@ body {
 .container-narrow > hr {
   margin: 2rem 0;
 } */
-
-
