@@ -18,11 +18,7 @@ body {
   min-height: 75px;
 }
 
-.header {
-   padding-top: 20px;
-    padding-right: 0px;
-    padding-bottom: 20px;
-    padding-left: 40px;
+.header bg-light {
     font-weight: bold;
 }
 
