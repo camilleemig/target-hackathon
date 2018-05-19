@@ -18,6 +18,14 @@ body {
   min-height: 75px;
 }
 
+.header {
+   padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    font-weight: bold;
+}
+
 .bg-primary {
   background-color: #c00 !important;
 }
@@ -50,3 +58,5 @@ body {
 .container-narrow > hr {
   margin: 2rem 0;
 } */
+
+
