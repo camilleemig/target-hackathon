@@ -38,6 +38,10 @@ body {
   border-color: #888888;
 }
 
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+  background-color: #000 !important;
+}
+
 .nav-link {
   color: #fff !important;
 }
