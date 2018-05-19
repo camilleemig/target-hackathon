@@ -31,6 +31,10 @@ body {
   margin-top: 25%;
 }
 
+.bg-primary {
+  background-color: #c00 !important;
+}
+
 #content {
   min-height: 500px;
   margin-top: 40px;
