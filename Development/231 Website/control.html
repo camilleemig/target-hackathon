@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <title>Python: Control </title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/cse231.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+
+    <!-- Le styles -->
+    <style type="text/css">
+
+    </style>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="path-to-asset">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="path-to-asset">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="path-to-asset">
+    <link rel="apple-touch-icon-precomposed" href="path-to-asset">
+    <link rel="shortcut icon" href="path-to-asset">
+  </head>
+
+  <body data-spy="scroll" data-target="#stop.cse-sidebar">
+    <div class="navbar" id="news">
+      <div class="navbar-inner">
+        <!-- <a href="http://www.msu.edu" class="brand"> -->
+          <!-- <img alt="msu image" style="padding: 10px 0 0 5px;" src="img/MSU-Wordmark-Green-120-pxls.gif"> -->
+        </a>
+        <ul class="nav">
+          <!-- <li><a href="http://web.egr.msu.edu/">College of <br> Engineering</a></li> -->
+          <!-- <li><a href="http://www.cse.msu.edu/">Department of <br> Computer Science</a></li> -->
+          <li><a href="#"><h4>The Practice of Computing Using Python </h4></a></li>
+    <li> <img alt="book cover image" src="img/Text_3rd.jpg" style="align:top; border:0; width:60px">
+        </ul>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span9">
+          <div class="carousel slide" id="news-scroll">
+            <div class="carousel-inner">
+            </div>
+          </div>
+
+          <h2 id="general">Week2: Control </h2>
+          <p> 
+          Computers appear to be smart and powerful because they make billions of repetitive decisions every second.
+          In this section, you will learn about decisions (selection) and repetition.
+	  </p>
+          <h4>Readings from the book <a
+href="https://www.pearsonhighered.com/product/Punch-Practice-of-Computing-Using-Python-The-3rd-Edition/9780134379760.html"><em>The
+Practice of Computing Using Python</em></a>.
+</h4>
+</h4>
+          <p>
+            Chapter 2: Control
+          <h4>Videos</h4>
+          <ol type ="I">
+          <li>Booleans and Logical Operations </li>
+            <p> Booleans are data that have values <em>True</em> or <em>False</em>, and that makes them useful for making decisions.
+            </p>
+             <ol>
+               <li><a href="Videos/2.1-BooleansRelationals.mp4">Booleans (Video)</a></li>
+               <li><a href="Videos/2.2-LogicalOps.mp4">Boolean Logic (Video)</a></li>
+             </ol>
+          <li>Selection (Decisions)</li>
+            <pre>
+            <font color=Dark Orange2>if</font> Boolean-expression-I:
+                suite-of-statements
+            <font color=Dark Orange2>elif</font> Boolean-expression-II:
+                suite-of-statements
+            <font color=Dark Orange2>else</font>:
+                suite-of-statements </pre>
+             <ol>
+               <li><a href="Videos/2.3-Selection1.mp4">Selection <em>if</em> (Video)</a></li>
+               <li><a href="Videos/2.4-Selection2.mp4">Selection <em>if</em> with <em>else</em> (Video)</a></li>
+               <li><a href="Videos/2.4.5-Nested_If.mp4">Nested <em>if</em> (Video)</a></li>
+             </ol>
+          <li>Repetition using <em>while</em></li>
+             <pre>
+             <font color=Dark Orange2>while</font> Boolean-expression:
+                suite-of-statements </pre>
+             <ol>
+               <li><a href="Videos/2.5-While1.mp4"><em>While (Video)</em></a></li>
+               <li><a href="Videos/2.6-While2-else.mp4"><em>While</em> with <em>else</em> (Video)</a></li>
+         <pre>
+         <font color=Dark Orange2>while</font> Boolean-expression-I:
+            suite-of-statements 
+            <font color=Dark Orange2>if</font> Boolean-expression-II:
+                <font color=Dark Orange2>break</font>      <font color=Red># Exit loop <em>now</em>; skip else </font>
+            <font color=Dark Orange2>if</font> Boolean-expression-III:
+                <font color=Dark Orange2>continue</font>   <font color=Red># Go to top of loop <em>now</em> </font>
+            suite-of-statements 
+         <font color=Dark Orange2>else</font>:
+            suite-of-statements <font color=Red># if we did not hit a <em>break</em></font> </pre>
+                   
+               <li><a href="Videos/2.6.5-NestedWhile.mp4">Nested <em>while</em> (Video)</a></li>
+             </ol>
+          <li>Examples using <em>if</em> and <em>while</em> </li>
+             <ol>
+               <li><a href="Videos/2.7-While_example.mp4">An example using <em>if</em> and <em>while</em> (Video) </a></li>
+              <p>
+              Solve this puzzle substituting unique, non-zero integers for each letter:
+              </p>
+               <pre>
+  HERE
+ + SHE
+ -----
+ COMES </pre>
+                  <ul>
+                     <li><a href="Code/while.py">while.py</a></li>
+                  </ul>
+               <li><a href="Videos/2.8-While_example_fizzbuzz.mp4">The classic <em>fizzbuzz</em> problem (Video).</a></li>
+                  <p>
+Write a program that prints the numbers from 1 to 100.
+However, for multiples of three print "Fizz" instead of the number, and
+for the multiples of five print "Buzz."
+For numbers that are multiples of both three and five print "FizzBuzz."
+                  </p>
+                  <ul>
+                     <li><a href="Code/fizzbuzz.py">fizzbuzz.py</a></li>
+                  </ul>
+             </ol>
+           <li>Patterns</li>
+           <p>
+              How to count:
+             <pre>
+             counter = 0  <font color=Green># start with an empty counter</font>
+             <font color=Dark Orange2>for</font> i <font color=Dark Orange2>in</font> collection:
+                 counter += i  <font color=Green># increment counter</font>
+              </pre>
+           <li>Chapter 2 Exercises on Mimir</li>
+           <li><a href="Labs/Lab02">Lab02</a> (do pre-lab first on <a href="https://d2l.msu.edu/">D2L</a>)</li>
+           <li><a href="Projects/Project02">Project02</a></li>
+          </ol>
+
+        </div><!--/span-->
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+      <p style="text-align: center;">Videos recorded using <img src="img/camtasiaMacLogoGray.png" alt="Camtasia for Mac" height="40" width="80" > from <a href="http://www.techsmith.com/"><img src="img/techSmith_logo.png" alt="TechSmith" height="40" width="80"></a></p>
+        <p style="text-align: center;">&copy; Punch & Enbody 2013</p>
+        <!-- Clay Reimann 2012 -->
+      </footer>
+
+    </div><!--/container-->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  </body>
+</html>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
